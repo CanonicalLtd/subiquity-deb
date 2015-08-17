@@ -1,0 +1,3 @@
+bin/subiquity                          usr/share/subiquity/bin
+bin/curtin_wrap.sh                     usr/share/subiquity/bin
+installer                              usr/share/subiquity/installer

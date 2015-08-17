@@ -1,0 +1,2 @@
+# SUbiquity
+> Ubuntu Server Installer

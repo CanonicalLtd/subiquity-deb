@@ -2,24 +2,24 @@ Source: subiquity
 Section: admin
 Priority: extra
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Build-Depends: debhelper (>= 9),
+Build-Depends: bzr,
+               debhelper (>= 9),
                dh-python,
+               git,
                pep8,
                pyflakes,
                python3-all,
+               python3-coverage,
+               python3-flake8,
                python3-jinja2,
+               python3-netifaces,
                python3-nose,
+               python3-parted,
+               python3-pyudev,
                python3-setuptools,
                python3-urwid,
                python3-yaml,
-               python3-parted,
-               python3-netifaces,
-               python3-pyudev,
-               python3-flake8,
-               ubuntu-cloudimage-keyring,
-               python3-coverage,
-               git,
-               bzr
+               ubuntu-cloudimage-keyring
 Standards-Version: 3.9.5
 Homepage: https://github.com/CanonicalLtd/subiquity
 X-Python3-Version: >= 3.3
@@ -28,21 +28,21 @@ Vcs-Git: https://github.com/CanonicalLtd/subiquity.git
 
 Package: subiquity
 Architecture: all
-Depends: python3-all,
+Depends: bzr
+         ${misc:Depends},
+         git,
+         python3-all,
+         python3-coverage,
+         python3-flake8,
          python3-jinja2,
          python3-netifaces,
          python3-nose,
+         python3-parted,
+         python3-pyudev,
          python3-setuptools,
          python3-urwid,
          python3-yaml,
-         python3-parted,
-         python3-pyudev,
-         python3-flake8,
          ubuntu-cloudimage-keyring,
-         python3-coverage,
-         git,
-         bzr
-         ${misc:Depends},
          ${python3:Depends},
          ${python:Depends}
 Description: Ubuntu Server Installer

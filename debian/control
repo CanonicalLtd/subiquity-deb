@@ -34,7 +34,7 @@ Depends: bzr
          qemu-utils,
          shim,
          shim-signed,
-         simplstreams,
+         simplestreams,
          syslinux-common,
          ubuntu-cloudimage-keyring,
          ${python3:Depends},

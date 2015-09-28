@@ -1,2 +1,2 @@
-/usr/share/subiquity/bin/subiquity            /usr/bin/subiquity
+/usr/share/subiquity/subiquity-tui            /usr/bin/subiquity
 /usr/share/subiquity/installer/geninstaller   /usr/bin/subiquity-geninstaller

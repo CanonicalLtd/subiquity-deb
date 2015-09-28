@@ -5,7 +5,6 @@ export PYBUILD_DISABLE_python2=1
 export PYBUILD_INSTALL_DIR=usr/share/subiquity/
 export PYBUILD_INSTALL_ARGS_python3=--install-lib=usr/share/subiquity/ \
 	--install-data=usr/ \
-	--install-scripts=usr/share/subiquity/bin/ \
 	--root=$(CURDIR)/debian/subiquity/ \
 	--no-compile -O0
 

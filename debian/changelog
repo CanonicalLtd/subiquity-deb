@@ -1,4 +1,4 @@
-subiquity (0.0.1) UNRELEASED; urgency=medium
+subiquity (0.0.1-0ubuntu1) wily; urgency=medium
 
   * Initial build.
 

@@ -27,7 +27,6 @@ Depends: bzr
          kpartx,
          parted,
          probert,
-         python3-all,
          python3-tornado,
          python3-urwid,
          python3-yaml,

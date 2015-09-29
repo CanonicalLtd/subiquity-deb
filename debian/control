@@ -36,8 +36,7 @@ Depends: bzr
          simplestreams,
          syslinux-common,
          ubuntu-cloudimage-keyring,
-         ${python3:Depends},
-         ${python:Depends}
+         ${python3:Depends}
 Description: Ubuntu Server Installer
  This package provides the installer routines for bootstrapping a system
  with the Subiquity the server installer UI.

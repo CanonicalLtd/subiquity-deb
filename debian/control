@@ -6,20 +6,9 @@ Build-Depends: bzr,
                debhelper (>= 9),
                dh-python,
                git,
-               pep8,
-               pyflakes,
-               python3-all,
-               python3-coverage,
-               python3-flake8,
-               python3-jinja2,
-               python3-netifaces,
-               python3-nose,
-               python3-pyudev,
+               python3,
                python3-setuptools,
-               python3-urwid,
-               python3-yaml,
-               python3-tornado,
-               ubuntu-cloudimage-keyring
+               python3-yaml
 Standards-Version: 3.9.5
 Homepage: https://github.com/CanonicalLtd/subiquity
 X-Python3-Version: >= 3.3
@@ -27,22 +16,27 @@ Vcs-Browser: https://github.com/CanonicalLtd/subiquity
 Vcs-Git: https://github.com/CanonicalLtd/subiquity.git
 
 Package: subiquity
-Architecture: all
+Architecture: amd64
 Depends: bzr
          ${misc:Depends},
+         extlinux,
+         gdisk,
          git,
+         grub-efi-amd64-signed,
+         grub2-common,
+         kpartx,
+         parted,
+         probert,
          python3-all,
-         python3-coverage,
-         python3-flake8,
-         python3-jinja2,
-         python3-netifaces,
-         python3-nose,
-         python3-pyudev,
-         python3-setuptools,
+         python3-tornado,
          python3-urwid,
          python3-yaml,
+         qemu-utils,
+         shim,
+         shim-signed,
+         simplestreams,
+         syslinux-common,
          ubuntu-cloudimage-keyring,
-         python3-tornado,
          ${python3:Depends},
          ${python:Depends}
 Description: Ubuntu Server Installer

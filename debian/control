@@ -19,6 +19,7 @@ Package: subiquity
 Architecture: amd64
 Depends: bzr
          ${misc:Depends},
+         cloud-image-utils,
          extlinux,
          gdisk,
          git,

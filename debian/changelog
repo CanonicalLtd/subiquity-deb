@@ -1,3 +1,10 @@
+subiquity (0.0.1-0ubuntu2) wily; urgency=medium
+
+  * Add curtin to package deps
+  * Find curtin and install source dynamically (Closes: #64)
+
+ -- Ryan Harper <ryan.harper@canonical.com>  Wed, 07 Oct 2015 08:49:39 -0500
+
 subiquity (0.0.1-0ubuntu1) wily; urgency=medium
 
   * Initial build.

@@ -20,6 +20,7 @@ Architecture: amd64
 Depends: bzr
          ${misc:Depends},
          cloud-image-utils,
+         curtin,
          extlinux,
          gdisk,
          git,

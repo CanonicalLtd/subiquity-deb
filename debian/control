@@ -17,10 +17,22 @@ Vcs-Git: https://github.com/CanonicalLtd/subiquity.git
 
 Package: subiquity
 Architecture: amd64
+Depends: curtin,
+         probert,
+         python3-tornado,
+         python3-urwid,
+         python3-yaml,
+         ${misc:Depends},
+         ${python3:Depends}
+Description: Ubuntu Server Installer
+ This package provides the installer routines for bootstrapping a system
+ with the Subiquity the server installer UI.
+
+Package: subiquity-tools
+Architecture: amd64
 Depends: bzr
          ${misc:Depends},
          cloud-image-utils,
-         curtin,
          extlinux,
          gdisk,
          git,
@@ -28,14 +40,11 @@ Depends: bzr
          grub2-common,
          kpartx,
          parted,
-         probert,
-         python3-tornado,
-         python3-urwid,
-         python3-yaml,
          qemu-utils,
          shim,
          shim-signed,
          simplestreams,
+         subiquity,
          syslinux-common,
          ubuntu-cloudimage-keyring,
          ${python3:Depends}

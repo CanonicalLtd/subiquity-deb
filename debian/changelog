@@ -1,3 +1,9 @@
+subiquity (0.0.1-0ubuntu3) wily; urgency=medium
+
+  * Break subiquity-{gen|run}installer into -tools package (Closes: #80)
+
+ -- Ryan Harper <ryan.harper@canonical.com>  Tue, 20 Oct 2015 17:02:47 -0500
+
 subiquity (0.0.1-0ubuntu2) wily; urgency=medium
 
   * Add curtin to package deps

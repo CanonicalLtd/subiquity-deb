@@ -1,3 +1,13 @@
+subiquity (0.0.2) wily; urgency=medium
+
+  * Release 0.0.2
+  * Network Configuration UX
+  * RAID/mdadm UX
+  * Updated Installer spinner
+  * Detection on failure when running curtin
+
+ -- Ryan Harper <ryan.harper@canonical.com>  Tue, 20 Oct 2015 18:34:20 -0500
+
 subiquity (0.0.1-0ubuntu3) wily; urgency=medium
 
   * Break subiquity-{gen|run}installer into -tools package (Closes: #80)

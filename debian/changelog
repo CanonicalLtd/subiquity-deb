@@ -1,3 +1,14 @@
+subiquity (0.0.3) wily; urgency=medium
+
+  * Release 0.0.3
+  * Fix RAID install
+  * geninstaller: install curtin as deb
+  * geninstaller: pre-install curtin deps in installer overlay
+  * geninstaller: shrink the size of the rootfs partition
+  * Fixed issues: #63, #64, #67, #69, #70, #72, #74, #75, #76, #77, #78
+
+ -- Ryan Harper <ryan.harper@canonical.com>  Wed, 28 Oct 2015 09:58:39 -0500
+
 subiquity (0.0.2) wily; urgency=medium
 
   * Release 0.0.2

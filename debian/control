@@ -20,7 +20,7 @@ Architecture: amd64
 Depends: curtin,
          probert,
          python3-tornado,
-         python3-urwid,
+         python3-urwid (>= 1.2.1)
          python3-yaml,
          ${misc:Depends},
          ${python3:Depends}

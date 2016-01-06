@@ -1,3 +1,14 @@
+subiquity (0.0.5) wily; urgency=medium
+
+  * Release 0.0.5
+  * New UX/Models: bcache, lvm, identity
+  * Geninstaller updated to work with latest curtin
+  * Fix button movement when scaling UI
+  * Switch back to async curtin install (two stage)
+  * Fixed issues: #77, #88
+
+ -- Ryan Harper <ryan.harper@canonical.com>  Tue, 05 Jan 2016 20:30:11 -0600
+
 subiquity (0.0.4) wily; urgency=medium
 
   * Release 0.0.4
